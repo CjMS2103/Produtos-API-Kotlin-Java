@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Produtos API Java
+  datasource:
+    url: jdbc:h2:mem:db
+    username: admin
+    password: admin
+  jpa:
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
